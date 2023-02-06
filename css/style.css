@@ -115,7 +115,7 @@ button {
 
 /*inizio main*/
 
-main{
+main {
     min-width: 800px;
 }
 
@@ -126,7 +126,7 @@ main{
     margin-bottom: 0;
 }
 
-.article{
+.article {
     padding: 1rem;
 }
 
@@ -136,21 +136,39 @@ main{
 .article>p {
     color: black;
     text-align: left;
-padding: 1rem;
+    padding: 1rem;
 }
 
-.reverse{
+.reverse {
     flex-direction: row-reverse;
 }
 
-.even{
+.even {
     background-color: var(--primary-color);
 }
 
-.last h1, .last p{
+.last h1,
+.last p {
     text-align: center;
     margin: 0;
 }
 
-.last{margin: 5rem;
-background-color: var(--primary-color);}
+.last {
+    margin: 5rem auto;
+    background-color: var(--primary-color);
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+}
+
+#lbm {
+    background-color: var(--mark);
+    color: var(--secondary-color);
+    margin-top: 2rem;
+    font-size: 20px;
+    padding: .7rem;
+    border-radius: 30px;
+
+}
