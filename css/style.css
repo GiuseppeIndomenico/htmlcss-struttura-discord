@@ -172,3 +172,61 @@ h2 {
     border-radius: 30px;
 
 }
+
+
+/*inizio footer*/
+
+footer {
+    background-color: var(--bg-footer);
+    max-width: 1200px;
+    margin: 0 auto;
+    color: var(--secondary-color);
+    height: 500px;
+
+}
+
+footer img {
+    width: 20px;
+}
+
+h2 {
+    color: var(--mark);
+}
+
+select {
+    background-color: var(--bg-footer);
+    border: none;
+    color: var(--secondary-color);
+}
+
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid var(--mark);
+    justify-content: space-between;
+    padding:2rem
+}
+
+.foo-ntainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foo-ntainer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.foo-ntainer ul li:first-child {
+    color: var(--mark);
+}
+
+.foo-ntainer ul li {
+    padding: .5rem;
+    text-align: left;
+
+}
