@@ -13,3 +13,54 @@
     --mark: #7485d6;
     --bg-footer: #23272a
 }
+
+header{
+    background-color: var(--bg);
+    padding: 1rem;
+}
+
+nav{
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding:.5rem;
+    margin: auto;
+    align-items: center;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+li{
+    list-style: none;
+    text-transform: capitalize;  
+    margin-top: 0rem; 
+
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul li a{
+    color: var(--secondary-color);
+    margin: 1rem;
+}
+
+nav button{
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    border: none;
+    padding: .6rem;
+    min-width: 4.5rem;
+    
+}
+
