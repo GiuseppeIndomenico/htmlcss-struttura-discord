@@ -15,7 +15,8 @@
 }
 
 header {
-    background-color: var(--bg)
+    background-color: var(--bg);
+    min-width: 800px;
 }
 
 nav {
@@ -114,10 +115,15 @@ button {
 
 /*inizio main*/
 
+main{
+    min-width: 800px;
+}
+
 .container {
     display: flex;
     max-width: 1180px;
     margin: 20rem auto;
+    margin-bottom: 0;
 }
 
 .article{
@@ -133,3 +139,18 @@ button {
 padding: 1rem;
 }
 
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.even{
+    background-color: var(--primary-color);
+}
+
+.last h1, .last p{
+    text-align: center;
+    margin: 0;
+}
+
+.last{margin: 5rem;
+background-color: var(--primary-color);}
