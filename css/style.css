@@ -1,4 +1,15 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*color preset*/
+
+:root {
+    --bg: #3354e4;
+    --primary-color: #f6f6f6;
+    --secondary-color: #ffffff;
+    --mark: #7485d6;
+    --bg-footer: #23272a
 }
